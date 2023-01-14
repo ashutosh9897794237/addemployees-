@@ -10,8 +10,9 @@ btnAdd.addEventListener('click', () => {
     let template = `
                 <tr>
                     <td>${name}</td>
-                    <td>${age}</td>
                     <td>${profession}</td>
+                    <td>${age}</td>
+                    <td><button class="deleteBtn">Delete</button></td>
                 </tr>`;
     table.innerHTML += template;
 });
